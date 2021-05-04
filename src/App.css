@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+
+.link-box {
+  display: flex;
+}
+
+.link-box li {
+  padding: 8px;
+  margin: 8px;
+  background-color: rgb(77, 175, 240);
+  border-radius: 4px;
+}
+
+.link-box li a {
+  color: aliceblue;
+}
+
+.suspense {
+  padding: 8px;
+}
+
+button {
+  padding: 8px;
+  margin: 0 8px;
+  background-color: rgb(77, 175, 240);
+  border-color: rgb(77, 175, 240);
+  border-radius: 4px;
+  color: #FFF;
+}
